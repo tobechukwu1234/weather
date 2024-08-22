@@ -31,7 +31,7 @@ body{
   padding: 10px 25px;
   height: 60px;
   border-radius: 30px;
-  flex: 1;
+  width: 80%;
   margin-right: 16px;
   font-size: 18px;
 }
@@ -114,25 +114,37 @@ body{
   color: rgb(162, 162, 255);
 }
 
-@media (max-width : 421px){
+@media (max-width : 410px){
+  .card{
+    width: 85%;
+    max-width: 440px;
+    padding: 30px 25px;
+  }
+  .search{
+    width: 100%;
+  }
+  .search input{
+    height: 40px;
+    width: 100%;
+  }
   .search button{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
   .search button img{
-    width: 8px;
+    width: 10px;
   }
   .col img{
-    width: 20px;
+    width: 15px;
     margin-right: 5px;
   } 
   
   .humidity, .wind{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -3px;
   }
   .humidity span, .wind span{
-    font-size: 5px;
+    font-size: 2px;
   }
 
 
