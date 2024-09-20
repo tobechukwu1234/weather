@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', san serif;
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
 }
 body{
@@ -10,7 +10,7 @@ body{
 .card{
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #00feba, #5b548a);
+  background: linear-gradient(135deg, #9fadfa, #5b548a);
   margin: 100px auto 0;
   color: #fff;
   padding: 40px 35px;
